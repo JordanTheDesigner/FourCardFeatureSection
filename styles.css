@@ -92,7 +92,8 @@ margin:20px 0 0 0;
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 480px) {
+/* Tablet */
+@media only screen and (max-width: 768px) {
 
   body{
     display: block;
@@ -107,11 +108,11 @@ margin:20px 0 0 0;
   }
 
   #TitleArea{
-    padding:0px;
+    padding:0px 19px;
   }
 
-  #TitleArea p {
-    width: 293px;
+  #TitleArea p{
+    width:450px;
   }
 
   #CardArea{
@@ -120,5 +121,26 @@ margin:20px 0 0 0;
     align-items:center;
     justify-content: center;
     margin-top:40px;
+  }
+
+  #MidArea{
+    width:100%;
+  }
+
+  #MidArea .Card{
+    margin:20px auto 0;
+  }
+
+  .Card{
+    width:80%;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+
+  #TitleArea p{
+    width:300px;
   }
 }
