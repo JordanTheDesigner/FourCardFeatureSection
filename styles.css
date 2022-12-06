@@ -7,7 +7,7 @@ height: 100vh;
 font-family: 'Poppins', sans-serif;
 font-size: 15px;
 font-weight: 400;
-color:hsl(300, 43%, 22%);
+color:hsl(234, 12%, 34%);
 }
 
 h1{
@@ -20,8 +20,10 @@ h2{
 
 h1, h2{
   margin-bottom: 0px;
-  font-size:2em;
+  font-size:2.5em;
 }
+
+
 
 p{
   color:hsl(229, 6%, 66%);
@@ -109,7 +111,7 @@ margin:20px 0 0 0;
   #TitleArea p {
     width: 293px;
   }
-  
+
   #CardArea{
     display: flex;
     flex-direction: column;
